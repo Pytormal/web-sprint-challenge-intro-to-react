@@ -5,9 +5,9 @@ const Character = (props) => {
   const { character } = props;
 
   return (
-    <div className="character-text">
-      <span className="character">{character.name}</span>{" "}
-      <span className="year">{character.birth_year}</span>
+    <div >
+      <span >{character.name}</span>{" "}
+      <span >{character.birth_year}</span>
     </div>
   );
 };
