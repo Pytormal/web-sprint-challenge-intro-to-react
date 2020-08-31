@@ -1,0 +1,25 @@
+.character-text {
+  text-align: left;
+  padding: 2px;
+  margin-left: 4px;
+  margin-bottom: 4px;
+}
+.character {
+  font-size: 16px;
+}
+.character-form {
+  margin: 10px 0;
+  width: 100%;
+}
+.character-form input {
+  width: 90%;
+  font-size: 14px;
+  padding: 10px;
+  border: none;
+  border-top: 1px solid #efefef;
+  color: #999;
+}
+.year {
+  font-size: 16px;
+  color: pink;
+}
