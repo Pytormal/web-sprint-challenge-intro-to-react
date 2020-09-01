@@ -1,22 +1,30 @@
-import React from "react";
-// import Character from "./Character";
+import React, { useState, useEffect } from "react";
+import Card from "./card";
+import axios from "axios";
 import "./Characters.css";
 
-const Characters = (props) => {
-  const { characters } = props;
+export default function Person() {
+  const [person, setPerson] = useState([]);
 
+  // Fetch characters from the API in an effect hook.
 
-  
+  useEffect(() => {
+    axios
+      .get("https://swapi.dev/api/people")
+      .then((res) => {
+        setPerson(res.data.results);
+        console.log(res);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }, []);
 
-  return (
-    <div className="characterContainer">
-
-      <div className="card">
-<h2 className="text" >rendered from characters.js</h2>
-</div>
-
+return (
+    <div>
+    {person.map(character => {
+      return <Card character={character} key={character.id} />;
+    })}
     </div>
   );
-};
-
-export default Characters;
+}
