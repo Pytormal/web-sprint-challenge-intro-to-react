@@ -8,7 +8,7 @@ const Card = ({ character }) => {
       <div className="card">
         <p className="name">Name: {character.name}</p>
         <p>Height: {character.height}</p>
-        <div>
+        <div className="pop">
           <p>Gender: {character.gender}</p>
           <p>BirthDate: {character.birth_year}</p>
         </div>

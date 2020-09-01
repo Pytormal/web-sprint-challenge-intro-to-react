@@ -3,16 +3,21 @@
   justify-content: space-evenly;
   margin: 0 auto;
   border-radius: 4rem;
-  border: solid blue;
+  border: dashed purple;
   width: 20rem;
-  margin-bottom: 4rem;
-}
-.card {
-  color: green;
-  text-shadow: 1px 1px 5px rgb(226, 19, 19);
-}
-.name {
-  margin-top: 15px;
-  color:pink;
+  margin-bottom: 2rem;
 }
 
+.card {
+  color: blue;
+  text-shadow: 1px 2px 5px #2e2b3a;
+}
+
+.name {
+  margin-top: 15px;
+  color: pink;
+}
+
+.pop{
+color: crimson;
+}
