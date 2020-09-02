@@ -1,6 +1,6 @@
 // Write your Character component here
 import React from "react";
-import Person from "./Characters";
+// import Person from "./Characters";
 
 const Card = ({ character }) => {
   return (
