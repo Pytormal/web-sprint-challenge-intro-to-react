@@ -1,0 +1,23 @@
+.characterContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  border-radius: 4rem;
+  border: dashed purple;
+  width: 20rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  color: blue;
+  text-shadow: 1px 2px 5px #2e2b3a;
+}
+
+.name {
+  margin-top: 15px;
+  color: pink;
+}
+
+.pop{
+color: crimson;
+}

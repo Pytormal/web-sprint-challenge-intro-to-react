@@ -1,0 +1,24 @@
+1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+        React Js is a open source JavaScript library used for building UI.
+
+        the Problem that React JS solves are many things. it allows programmers to do more in less time. build extensive and complex designs that still allow users to be able to enjoy the UI and feel immersed into an app or page.
+
+             there are also cons to using react as well.
+
+1. Describe component state.
+
+        the state is an object that will be able to store property values that belong to the component. when the state object changes, the component will re-render.
+
+1. Describe props.
+
+        the props are similar to function arguments in JavaScript and attributes in HTML
+
+1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+        side effects are any secondary effect or reaction that comes from an action that is taken.
+
+        some way and form it is able to sync
+
+                useEffect(fn, [these, states]) 
+                        is the typical way of using useEffect
